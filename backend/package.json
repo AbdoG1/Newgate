@@ -6,9 +6,7 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "migrate:up": "drizzle-kit migrate up --config drizzle.config.ts",
-    "migrate:down": "drizzle-kit migrate down --config drizzle.config.ts",
-    "migrate:status": "drizzle-kit migrate status --config drizzle.config.ts"
+     "db:push": "drizzle-kit push"
   },
   "keywords": [],
   "author": "",
