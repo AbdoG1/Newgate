@@ -1,4 +1,4 @@
-import { NODE_VERSION } from '@sentry/node'
+
 import {z} from 'zod'
 
 const envSchema = z.object({
